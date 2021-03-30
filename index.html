@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Articles Posts</title>
+</head>
+<body>
+  
+    <header>
+<h3>ASAC</h3>
+
+<div>
+    <nav>
+        <ul>
+            <li>Home </li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+</div>
+    </header>
+    <main>
+<form id="form1">
+    <fieldset>
+        <label for="name" class="subtilte">Author name</label>
+        <input type="text" name="authorName" id="name">
+        <br><br>
+        <label for="name" class="subtilte">Article Title</label>
+        <input type="text" name="articleTilte" id="title">
+        <br><br>
+        <label for="name" class="subtilte">Subject</label>
+        <select id="subject" name="subjectsname">
+            <option value="Coding">Coding</option>
+            <option value="3D printing">3D printing</option>
+            <option value="Cyber security">Cyber security</option>
+            <option value="AI">AI</option>
+          </select>
+          <br><br>
+          <p class="subtilte">Content</p>
+          <textarea name="article" id="articleNote" cols="30" rows="10"></textarea>
+          <br><br>
+          <label for="name">day : </label>
+          <input type="datetime" name="day" id="theday">
+          <label for="name">month : </label>
+          <input type="datetime" name="month" id="themonth">
+          <label for="name">year : </label>
+          <input type="datetime" name="year" id="theyear">
+          <br><br>
+          <button type="submit" form="form1" value="Submit">Submit</button>
+    </fieldset>
+</form>
+
+<section id="userInfo">
+
+</section>
+
+        <script src="./js/app.js"></script>
+    </main>
+    
+    <footer>
+        <p>&copy; All rights reserved ASAC 2021</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+header{
+    background-color:  rgba(96, 96, 96,0.6);
+    padding: 5px;
+    margin: auto;
+}
+h3{
+    text-align: center;
+    color: white;
+}
+ul{
+    list-style: none;
+    color: white;
+  float: right;  
+
+}
+/* ul li {
+    list-style: none;
+    float: right;
+    padding: 10px;
+    color: white;
+} */
+main{
+    margin-top: 6%;
+    margin-right: 50%;
+    margin-bottom: 6%;
+}
+fieldset{
+    background-color:  rgba(96, 96, 96,0.6);
+    
+}
+
+.subtilte{
+    margin-right: 55%;
+}
+
+
+footer{
+clear: both;
+    background-color:  rgba(96, 96, 96,0.6);
+    height: 50px;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
